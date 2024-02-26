@@ -20,7 +20,7 @@ pediatricians, neonatologists
 
 # Project content
 
-- File  [BLD_178.xlsx](BLD_178.xlsx) contains primary information about 182 patients.
+- File  [BLD_178.xlsx](BLD_178.xlsx) contains primary information about patients.
 - File [BLD_178.ipynb](BLD_178.ipynb) contains descriptive and comparative analysis as well as machine learning models
 
 # Brief description of the project
