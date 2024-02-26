@@ -27,8 +27,6 @@ pediatricians, neonatologists
 
 This study is aimed at development of the model for early prediction of clinically significant bronchopulmonary dysplasia in premature infants.
 
-A retrospective study  included 226 premature infants with gestational age less than 31 weeks, birth weight from 500 to 1000g, age from 0 to 7 days, and respiratory failure requiring ventilatory support (ventilator support).
-
 Machine learning algorithms were used to build the prognostic model: log-regression, support vector machine, random forest method, and gradient boosting. Five variables were used: birth weight, Apgar score at 5 minutes, Silverman score, number of days of invasive ventilatory support, median values fraction of oxygen in the inhaled air measured in the first seven days of life.
 
 Among the four studied prediction algorithms, logistic regression model was chosen as the final model with metrics: AUC=0.840, accuracy 0.818, sensitivity 0.972, specificity 0.666.
