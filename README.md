@@ -14,7 +14,7 @@
 # About the project
 The project is devoted to the development of an early prediction model for clinically significant bronchopulmonary dysplasia in very premature infants.
  # Project result 
- online probability calculator
+  probability calculator
 # For whom 
 pediatricians, neonatologists
 
@@ -33,6 +33,37 @@ Machine learning algorithms were used to build the prognostic model: log-regress
 
 Among the four studied prediction algorithms, logistic regression model was chosen as the final model with metrics: AUC=0.840, accuracy 0.818, sensitivity 0.972, specificity 0.666.
 The practical application of the modeling results was implemented in the form of an Excel-based calculator.
+
+## Usage
+### 1.Install Dependencies: 
+Make sure you have Python installed along with all the required libraries. You can install the dependencies using pip:
+
+```sh
+pip install -r requirements.txt
+```
+
+### 3.Run the Script: 
+ Execute the script from the command line, providing the path to the Excel data file. For example:
+
+ ```sh
+ python script.py
+```
+
+ ### 4.Input Data:
+When running the script, you may need to input additional data such as file paths or algorithm parameters. Follow the prompts to enter the required information.
+ 
+# Files
+[script.py](script.py) The main script that performs logistic regression on data from an Excel file.
+
+[BLD_178.xlsx](BLD_178.xlsx) Sample data file used in the script.
+
+## Dependencies
+numpy: Library for numerical computations with arrays and matrices in Python.
+
+pandas: Library for data manipulation and analysis in tabular form.
+
+scikit-learn: Library containing machine learning algorithms and tools for data analysis.
+
 
 ## Authors
 
