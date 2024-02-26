@@ -32,7 +32,7 @@ Machine learning algorithms were used to build the prognostic model: log-regress
 Among the four studied prediction algorithms, logistic regression model was chosen as the final model with metrics: AUC=0.840, accuracy 0.818, sensitivity 0.972, specificity 0.666.
 The practical application of the modeling results was implemented in the form of an Excel-based calculator.
 
-## Usage probability calculator
+## Using a Probability Calculator
 
 ### 1.Install Dependencies: 
 Make sure you have Python installed along with all the required libraries. You can install the dependencies using pip:
