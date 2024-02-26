@@ -5,16 +5,9 @@ The project is devoted to the development of an early prediction model for clini
 # For whom 
 pediatricians, neonatologists
 
-## Содержание
-- [Технологии](#технологии)
-- [Начало работы](#начало-работы)
-- [Тестирование](#тестирование)
-- [Deploy и CI/CD](#deploy-и-ci/cd)
-- [Contributing](#contributing)
-- [To do](#to-do)
-- [Команда проекта](#команда-проекта)
 
 ## Технологии
+
 - [GatsbyJS](https://www.gatsbyjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - ...
