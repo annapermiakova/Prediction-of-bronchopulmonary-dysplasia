@@ -52,7 +52,7 @@ pip install -r requirements.txt
 When running the script, you may need to input additional data such as file paths or algorithm parameters. Follow the prompts to enter the required information.
  
 # Files
-[script.py](script.py) The main script that performs logistic regression on data from an Excel file.
+[script.py](https://raw.githubusercontent.com/med-python/Prediction-of-bronchopulmonary-dysplasia/main/Script/script.py) The main script that performs logistic regression on data from an Excel file.
 
 [BLD_178.xlsx](BLD_178.xlsx) Sample data file used in the script.
 
