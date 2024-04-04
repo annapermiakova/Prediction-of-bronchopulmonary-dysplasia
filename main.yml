@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Streamlit App
 
 on:
   push:
@@ -6,21 +6,22 @@ on:
       - main
 
 jobs:
-  run:
-    name: Run Script
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x
+        python-version: 3.9
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
 
-    - name: Run Python Script
-      run: python neonatalbot1.py
+    - name: Run Streamlit app
+      run: streamlit run BLD.py
+
